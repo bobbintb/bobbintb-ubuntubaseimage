@@ -3,5 +3,6 @@ node {
   docker.withRegistry("https://ghcr.io/v2") {
       docker.build("siwatinc/siwat-ubuntubaseimage:latest").push()
       docker.build("siwatinc/siwat-ubuntubaseimage:focal",'focal').push()
+      docker.build("siwatinc/siwat-ubuntubaseimage:hirsute",'hirsute').push()
   }
 }
