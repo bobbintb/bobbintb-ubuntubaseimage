@@ -4,5 +4,6 @@ node {
       docker.build("siwatinc/siwat-ubuntubaseimage:latest").push()
       docker.build("siwatinc/siwat-ubuntubaseimage:focal",'focal').push()
       docker.build("siwatinc/siwat-ubuntubaseimage:hirsute",'hirsute').push()
+      docker.build("siwatinc/siwat-ubuntubaseimage:focal-cuda",'focal-cuda').push()
   }
 }
